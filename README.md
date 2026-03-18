@@ -1,8 +1,9 @@
-# OWBlock [Overwatch Region Selector]
-
-<p align="center">
-  <img src="assets/owblock.png" alt="OWBlock icon" width="96">
-</p>
+<table>
+  <tr>
+    <td><img src="assets/owblock.png" alt="OWBlock icon" width="40"></td>
+    <td><h1>OWBlock [Overwatch Region Selector]</h1></td>
+  </tr>
+</table>
 
 > [!CAUTION]
 > Not affiliated with Blizzard, use at your own risk.
