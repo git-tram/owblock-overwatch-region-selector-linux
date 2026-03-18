@@ -1,6 +1,6 @@
 <table>
   <tr>
-    <td><img src="assets/owblock.png" alt="OWBlock icon" width="40"></td>
+    <td><img src="assets/owblock.png" alt="OWBlock icon" width="64"></td>
     <td><h1>OWBlock [Overwatch Region Selector]</h1></td>
   </tr>
 </table>
@@ -43,3 +43,6 @@ sudo ./scripts/uninstall-owblock.sh
 
 - [stowmyy/dropship](https://github.com/stowmyy/dropship)
 - [foryVERX/Overwatch-Server-Selector](https://github.com/foryVERX/Overwatch-Server-Selector/)
+
+> [!TIP]
+> Feel free to fork the project as it will not be actively maintained.
