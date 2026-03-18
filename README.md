@@ -2,7 +2,7 @@
 
 ![OWBlock icon](assets/owblock.png)
 
-This zip includes everything needed:
+This file includes everything needed:
 
 - app/owblock.py
 - app/owblock_gui.py
@@ -16,8 +16,8 @@ This zip includes everything needed:
 ## Install
 
 ```bash
-tar -xzf OWBlock-linux-x86_64-v0.1.0.tar.gz
-cd OWBlock-linux-x86_64-v0.1.0
+tar -xzf OWBlock-linux-x86_64-v0.1.1.tar.gz
+cd OWBlock-linux-x86_64-v0.1.1
 sudo ./scripts/install-owblock.sh
 ```
 
