@@ -2,17 +2,6 @@
 
 ![OWBlock icon](assets/owblock.png)
 
-This file includes everything needed:
-
-- app/owblock.py
-- app/owblock_gui.py
-- app/regions.json
-- app/requirements.txt
-- assets/owblock.png
-- scripts/install-owblock.sh
-- scripts/owblock
-- desktop/owblock.desktop
-
 ## Install
 
 ```bash
@@ -32,16 +21,15 @@ sudo ./scripts/uninstall-owblock.sh
 - Terminal: `owblock`
 
 > [!IMPORTANT]
-> If connection hangs/fails, make sure to unblock all servers to avoid a competitive ban.
+> - If connection hangs/fails, make sure to unblock all servers to avoid a competitive ban. 
+> - Restarting the game appears to produce the best results when unblock/blocking servers.
 
 ## Notes
-
-- Requires `python3-venv` on the host.
-- Requires `nftables` on the host.
-- The launcher uses the working pattern:
-  `pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR ...`
-
-- Not affiliated with Blizzard
+> [!Note]
+> - Requires `python3-venv` on the host.
+> - Requires `nftables` on the host.
+> - The launcher uses the working pattern:
+   `pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR ...`
 
 ## Screenshots
 ![Main window](docs/images/owblock-app.png)
@@ -50,3 +38,6 @@ sudo ./scripts/uninstall-owblock.sh
 
 - [stowmyy/dropship](https://github.com/stowmyy/dropship)
 - [foryVERX/Overwatch-Server-Selector](https://github.com/foryVERX/Overwatch-Server-Selector/)
+
+> [!CAUTION]
+> Not affiliated with Blizzard, use at your own risk.
