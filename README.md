@@ -41,13 +41,9 @@ sudo ./scripts/uninstall-owblock.sh
 
 ## CLI-only version
 
-
-```md
-## CLI-only version
-
 A smaller CLI-only release is available if you do not want the desktop app.
 
-### Install / extract
+## Install / extract
 
 ```bash
 tar -xzf OWBlock-cli-linux-x86_64-v0.1.1.tar.gz
@@ -55,11 +51,17 @@ cd OWBlock-cli-linux-x86_64-v0.1.1
 ```
 
 ## Usage
-- sudo ./owblock-cli list
-- sudo ./owblock-cli status
-- sudo ./owblock-cli block "Singapore"
-- sudo ./owblock-cli unblock "Singapore"
-- sudo ./owblock-cli unblock-all
+```bash
+sudo ./owblock-cli list
+
+sudo ./owblock-cli status
+
+sudo ./owblock-cli block "Singapore"
+
+sudo ./owblock-cli unblock "Singapore"
+
+sudo ./owblock-cli unblock-all
+```
 
 ## Acknowledgements
 
