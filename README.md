@@ -1,5 +1,7 @@
 # OWBlock [Overwatch Region Selector]
 
+![OWBlock icon](assets/owblock.png)
+
 This zip includes everything needed:
 
 - app/owblock.py
@@ -24,7 +26,7 @@ sudo ./scripts/install-owblock.sh
 - Menu: **OWBlock**
 - Terminal: `owblock`
 
-## Important
+> [!IMPORTANT]
 > If connection hangs/fails, make sure to unblock all servers to avoid a competitive ban.
 
 ## Notes
@@ -35,6 +37,9 @@ sudo ./scripts/install-owblock.sh
   `pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR ...`
 
 - Not affiliated with Blizzard
+
+## Screenshots
+![Main window](docs/images/screenshot-main.png)
 
 ## Acknowledgements
 
