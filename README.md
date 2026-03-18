@@ -21,6 +21,11 @@ cd OWBlock-linux-x86_64-v0.1.0
 sudo ./scripts/install-owblock.sh
 ```
 
+## Uninstall
+```bash
+sudo ./scripts/uninstall-owblock.sh
+```
+
 ## Launch
 
 - Menu: **OWBlock**
@@ -39,7 +44,7 @@ sudo ./scripts/install-owblock.sh
 - Not affiliated with Blizzard
 
 ## Screenshots
-![Main window](docs/images/screenshot-main.png)
+![Main window](docs/images/owblock-app.png)
 
 ## Acknowledgements
 
