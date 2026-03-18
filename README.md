@@ -1,4 +1,4 @@
-# OWBlock complete bundle
+# OWBlock [Overwatch Region Selector]
 
 This zip includes everything needed:
 
@@ -14,8 +14,8 @@ This zip includes everything needed:
 ## Install
 
 ```bash
-unzip owblock.zip
-cd owblock
+tar -xzf OWBlock-linux-x86_64-v0.1.0.tar.gz
+cd OWBlock-linux-x86_64-v0.1.0
 sudo ./scripts/install-owblock.sh
 ```
 
