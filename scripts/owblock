@@ -1,0 +1,12 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+APP_DIR="/opt/owblock"
+
+exec pkexec env \
+  DISPLAY="${DISPLAY:-}" \
+  XAUTHORITY="${XAUTHORITY:-}" \
+  XDG_RUNTIME_DIR="${XDG_RUNTIME_DIR:-}" \
+  "$APP_DIR/.venv/bin/python" \
+  "$APP_DIR/owblock_gui.py" \
+  --regions-file "$APP_DIR/regions.json"

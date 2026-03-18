@@ -1,0 +1,11 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=OWBlock
+Comment=Overwatch region blocker for Linux
+Exec=/usr/local/bin/owblock
+Icon=owblock
+Terminal=false
+Categories=Network;Utility;Game;
+StartupNotify=true
+Keywords=overwatch;network;firewall;gaming;
