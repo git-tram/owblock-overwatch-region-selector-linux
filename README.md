@@ -28,7 +28,7 @@ sudo ./scripts/uninstall-owblock.sh
 
 > [!IMPORTANT]
 > - If connection hangs/fails, make sure to unblock all servers to avoid a competitive ban. 
-> - Restarting the game appears to produce the best results when unblock/blocking servers.
+> - Restarting the game appears to produce the best results when unblocking/blocking servers.
 
 ## Notes
 - Requires `python3-venv` on the host.
@@ -38,6 +38,28 @@ sudo ./scripts/uninstall-owblock.sh
 
 ## Screenshots
 ![Main window](docs/images/owblock-app.png)
+
+## CLI-only version
+
+
+```md
+## CLI-only version
+
+A smaller CLI-only release is available if you do not want the desktop app.
+
+### Install / extract
+
+```bash
+tar -xzf OWBlock-cli-linux-x86_64-v0.1.1.tar.gz
+cd OWBlock-cli-linux-x86_64-v0.1.1
+```
+
+## Usage
+- sudo ./owblock-cli list
+- sudo ./owblock-cli status
+- sudo ./owblock-cli block "Singapore"
+- sudo ./owblock-cli unblock "Singapore"
+- sudo ./owblock-cli unblock-all
 
 ## Acknowledgements
 
