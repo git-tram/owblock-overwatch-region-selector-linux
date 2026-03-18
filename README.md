@@ -24,9 +24,19 @@ sudo ./scripts/install-owblock.sh
 - Menu: **OWBlock**
 - Terminal: `owblock`
 
+## Important
+> If connection hangs/fails, make sure to unblock all servers to avoid a competitive ban.
+
 ## Notes
 
 - Requires `python3-venv` on the host.
 - Requires `nftables` on the host.
 - The launcher uses the working pattern:
   `pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR ...`
+
+- Not affiliated with Blizzard
+
+## Acknowledgements
+
+- [stowmyy/dropship](https://github.com/stowmyy/dropship)
+- [foryVERX/Overwatch-Server-Selector](https://github.com/foryVERX/Overwatch-Server-Selector/)
