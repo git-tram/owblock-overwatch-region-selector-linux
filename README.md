@@ -1,6 +1,11 @@
 # OWBlock [Overwatch Region Selector]
 
-![OWBlock icon](assets/owblock.png)
+<p align="center">
+  <img src="assets/owblock.png" alt="OWBlock icon" width="96">
+</p>
+
+> [!CAUTION]
+> Not affiliated with Blizzard, use at your own risk.
 
 ## Install
 
@@ -25,11 +30,10 @@ sudo ./scripts/uninstall-owblock.sh
 > - Restarting the game appears to produce the best results when unblock/blocking servers.
 
 ## Notes
-> [!Note]
-> - Requires `python3-venv` on the host.
-> - Requires `nftables` on the host.
-> - The launcher uses the working pattern:
-   `pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR ...`
+- Requires `python3-venv` on the host.
+- Requires `nftables` on the host.
+- The launcher uses the working pattern:
+  `pkexec env DISPLAY=$DISPLAY XAUTHORITY=$XAUTHORITY XDG_RUNTIME_DIR=$XDG_RUNTIME_DIR ...`
 
 ## Screenshots
 ![Main window](docs/images/owblock-app.png)
@@ -38,6 +42,3 @@ sudo ./scripts/uninstall-owblock.sh
 
 - [stowmyy/dropship](https://github.com/stowmyy/dropship)
 - [foryVERX/Overwatch-Server-Selector](https://github.com/foryVERX/Overwatch-Server-Selector/)
-
-> [!CAUTION]
-> Not affiliated with Blizzard, use at your own risk.
