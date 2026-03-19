@@ -69,4 +69,4 @@ sudo ./owblock-cli unblock-all
 - [foryVERX/Overwatch-Server-Selector](https://github.com/foryVERX/Overwatch-Server-Selector/)
 
 > [!TIP]
-> Feel free to fork the project as it will not be actively maintained.
+> Feel free to fork the project or update the region block list as it will not be actively maintained. Users can update their own region lists by editing this file directly, adding or modifying region entries with the correct JSON structure. After saving the file, restart or refresh the app to load the new ranges.
