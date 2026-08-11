@@ -175,6 +175,12 @@ class OWBlockManager:
         if ipv6:
             self.add_elements("active_v6", ipv6)
 
+    def block_all(self) -> None:
+        self.require_nft()
+        self.require_root()
+        for region in self.regions:
+            self.block_region(region)
+
     def unblock_region(self, region: str) -> None:
         if region not in self.regions:
             raise OWBlockError(f"unknown region: {region}")
@@ -206,6 +212,7 @@ def cli() -> None:
     sub.add_parser("list")
     sub.add_parser("status")
     sub.add_parser("unblock-all")
+    sub.add_parser("block-all")
     p_block = sub.add_parser("block")
     p_block.add_argument("regions", nargs="+", help="Region names")
     p_unblock = sub.add_parser("unblock")
@@ -226,6 +233,9 @@ def cli() -> None:
             for region in args.regions:
                 manager.block_region(region)
                 print(f"blocked: {region}")
+        elif args.cmd == "block-all":
+            manager.block_all()
+            print("blocked all regions")
         elif args.cmd == "unblock":
             for region in args.regions:
                 manager.unblock_region(region)
